@@ -81,20 +81,20 @@ echo -ne "\033[1;31m╰━━━━━━━━❪\033[1;36mPRECIONE ENTER PRA C
 [[ $x = @(n|N) ]] && exit
 sed -i 's/Port 22222/Port 22/g' /etc/ssh/sshd_config  > /dev/null 2>&1
 service ssh restart  > /dev/null 2>&1
-echo -e "\n\033[1;36mVERIFICANDO... \033[1;37m 16983:16085\033[0m" ; rm $_Ink/list > /dev/null 2>&1; wget -P $_Ink https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Install/list > /dev/null 2>&1; verif_key
+echo -e "\n\033[1;36mVERIFICANDO... \033[1;37m 16983:16085\033[0m" ; rm $_Ink/list > /dev/null 2>&1; wget -P $_Ink https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Install/list > /dev/null 2>&1; verif_key
 sleep 3s
 echo "/bin/menu" > /bin/h && chmod +x /bin/h > /dev/null 2>&1
 rm versao* > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Install/versao > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Install/versao > /dev/null 2>&1
 > /dev/null 2>&1
 rm v2raymanager > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/v2raymanager > /dev/null 2>&1
-wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/botteste.sh >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/v2raymanager > /dev/null 2>&1
+wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/botteste.sh >/dev/null 2>&1
 chmod 777 v2raymanager > /dev/null 2>&1
 chmod 777 botteste.sh > /dev/null 2>&1
 mkdir $HOME/BOT >/dev/null 2>&1
 cd $HOME/BOT
-wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Sistema/ShellBot.sh >/dev/null 2>&1
+wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Sistema/ShellBot.sh >/dev/null 2>&1
 chmod 777 ShellBot.sh > /dev/null 2>&1
 cd > /dev/null 2>&1
 #-----------------------------------------------------------------------------------------------------------------
@@ -233,104 +233,104 @@ cd /bin/ && rm -f webmin.sh*
 cd /etc/ && rm -f websocket.sh*
 cd /bin/ && rm -f wsproxy.py*
 cd /etc/ && rm -f rc.local
-cd /etc/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/rc.local > /dev/null 2>&1
-cd /etc/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/fr > /dev/null 2>&1 
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/.criar > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/mtuning > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/.rmuid > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/.rmuser > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/.uid > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/ackclear > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/acksyshttpack > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/addhost > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/ajuda > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/alterarlimite > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/alterarsenha > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/antCrashARM.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/apache2menu > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/attscript > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/Autobackup > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/backup_mail.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/badpro > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/badvpn > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/badvpn-udpgw > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/banner > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/bashtop > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/ddos > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/blocksite > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/blockt > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/blockuser > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/bot > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/botssh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/cabecalho > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/celular.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/conexao > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/criarteste > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/criarusuario > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/delhost > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/delscript > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/detalhes > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/dns-netflix.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/dns-server > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/droplimiter > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/expcleaner > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/ban.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/fail2ban > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/haveged > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/infousers > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/initbot > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/bashtop > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/ShellBot.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/botteste > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/inst-botteste > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/inst-botteste > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/instsqd > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/limiter > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/listARM > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/menu > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/mudardata > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/multi > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/onlineapp > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/open.py > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/otimizar > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/painelv2ray > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/prissh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/prnet.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/proxy.py > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/reiniciarservicos > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/reiniciarsistema > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/remove-slow > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/remover > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/restartdns > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/senharoot > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/ShellBot.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/slow_dns > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/slowdns > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/slowdns-drop > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/slowdns-info > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/slowdns-socks > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/slowdns-ssh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/slowdns-ssl > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/speedtest > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/sshmonitor > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/startdns > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/stopdns > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/swapmemory > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/trojan-go > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/tuning > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/tweaker > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/uexpired > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/userbackup > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/v2ray > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/v2raymanager > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/verifatt > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/verifbot > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/webmin.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/websocket.sh > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/wsproxy.py > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/.criar1 > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/initcheck > /dev/null 2>&1
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/instcheck.sh > /dev/null 2>&1
+cd /etc/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/rc.local > /dev/null 2>&1
+cd /etc/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/fr > /dev/null 2>&1 
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/.criar > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/mtuning > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/.rmuid > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/.rmuser > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/.uid > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/ackclear > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/acksyshttpack > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/addhost > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/ajuda > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/alterarlimite > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/alterarsenha > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/antCrashARM.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/apache2menu > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/attscript > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/Autobackup > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/backup_mail.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/badpro > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/badvpn > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/badvpn-udpgw > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/banner > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/bashtop > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/ddos > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/blocksite > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/blockt > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/blockuser > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/bot > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/botssh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/cabecalho > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/celular.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/conexao > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/criarteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/criarusuario > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/delhost > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/delscript > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/detalhes > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/dns-netflix.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/dns-server > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/droplimiter > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/expcleaner > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/ban.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/fail2ban > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/haveged > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/infousers > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/initbot > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/bashtop > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/ShellBot.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/botteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/inst-botteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/inst-botteste > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/instsqd > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/limiter > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/listARM > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/menu > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/mudardata > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/multi > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/onlineapp > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/open.py > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/otimizar > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/painelv2ray > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/prissh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/prnet.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/proxy.py > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/reiniciarservicos > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/reiniciarsistema > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/remove-slow > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/remover > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/restartdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/senharoot > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/ShellBot.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/slow_dns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/slowdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/slowdns-drop > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/slowdns-info > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/slowdns-socks > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/slowdns-ssh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/slowdns-ssl > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/speedtest > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/sshmonitor > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/startdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/stopdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/swapmemory > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/trojan-go > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/tuning > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/tweaker > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/uexpired > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/userbackup > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/v2ray > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/v2raymanager > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/verifatt > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/verifbot > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/webmin.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/websocket.sh > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/wsproxy.py > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/.criar1 > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/initcheck > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/instcheck.sh > /dev/null 2>&1
 cd /etc/ && chmod +x .criar
 cd /bin/ && chmod +x instcheck.sh
 cd /bin/ && chmod +x initcheck
@@ -424,9 +424,9 @@ cd /bin/ && chmod +x webmin.sh
 cd /bin/ && chmod +x websocket.sh
 cd /bin/ && chmod +x wsproxy.py
 cd /bin/ && rm -f slowdns*
-cd /bin/ && wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/Modulos/slowdns > /dev/null 2>&1
+cd /bin/ && wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/Modulos/slowdns > /dev/null 2>&1
 cd /bin/ && chmod +x slowdns
-rm -rf install; wget https://raw.githubusercontent.com/Couty-SSH/01_PRO/main/slowdns/install; chmod +x install; ./install
+rm -rf install; wget https://raw.githubusercontent.com/Rafa4g/SSH-REY/main/slowdns/install; chmod +x install; ./install
 [[ ! -d /usr/share/.plus ]] && mkdir /usr/share/.plus
 echo "crz: $(date)" > /usr/share/.plus/.plus
 }
