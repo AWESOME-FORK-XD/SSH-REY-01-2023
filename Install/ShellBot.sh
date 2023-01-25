@@ -504,6 +504,7 @@ CreateUnitService()
 [Unit]
 Description=$1 - (SHELLBOT)
 After=network-online.target
+
 [Service]
 User=$2
 WorkingDirectory=$PWD
@@ -514,6 +515,7 @@ KillMode=process
 Restart=on-failure
 RestartPreventExitStatus=255
 Type=simple
+
 [Install]
 WantedBy=multi-user.target
 _eof
